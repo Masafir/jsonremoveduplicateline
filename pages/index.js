@@ -46,13 +46,13 @@ export default function Home() {
           Remove your duplicate line
         </h1>
 
-        <label for="input_text"> Input </label>
+        <label htmlFor="input_text"> Input </label>
         <textarea value={inputJson} id="input_text" className={"jsonArea"} onChange={(e) => setInputJson(e.target.value)} />
         <span> {inputJson.length} characters </span>
         { error && <span> Text is not valid </span>}
         <button onClick={() => handleRemoveDuplicateLine()}> Remove it ! </button>
 
-        <label for="output_text" > Output </label>
+        <label htmlFor="output_text" > Output </label>
         <textarea value={outputJson} className={"jsonArea"} id="output_text" />
         <span> {outputJson.length} characters </span>
         <button onClick={() => navigator.clipboard.writeText(outputJson)}> Copy to clipboard ! </button>
