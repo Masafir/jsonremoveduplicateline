@@ -37,7 +37,7 @@ export default function Home() {
         <meta name="description" content="Json remove my duplicate line" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin></link>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet"></link>
       </Head>
 
